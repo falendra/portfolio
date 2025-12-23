@@ -81,7 +81,7 @@ const About = () => {
                 }}>
                     <a href="https://github.com/falendra-kosh/" target="_blank" rel="noreferrer" style={{ width: '100%' }}>
                         <img
-                            src="github.svg"
+                            src="/github.svg"
                             alt="GitHub Streak"
                             style={{ width: '100%', height: 'auto', borderRadius: '4px', minHeight: '150px', objectFit: 'cover' }}
                         />
