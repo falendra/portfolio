@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Impact from './components/Impact';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <main>
                 <Hero />
                 <About />
+                <Impact /> 
                 <Skills />
                 <Experience />
                 <Projects />

@@ -52,24 +52,23 @@ const Hero = () => {
                     </motion.p>
 
                     <motion.div
-                        className="cta-group"
-                        style={{ justifyContent: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}
+                        className="hero-actions"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                        <a href="mailto:falendra.bandhe@gmail.com" className="btn btn-primary">Get in Touch</a>
-                        <a href="https://www.linkedin.com/in/falendra-bandhe/" target="_blank" className="btn btn-secondary">
-                            <FaLinkedin /> LinkedIn
+                        <a href="mailto:falendra.bandhe@gmail.com" className="btn btn-primary">
+                            Get in Touch
                         </a>
-                        <div style={{ display: 'flex', gap: '0.5rem' }}>
-                            <a href="https://github.com/falendra/" target="_blank" className="btn btn-secondary" title="Personal GitHub">
-                                <FaGithub /> Personal
-                            </a>
-                            <a href="https://github.com/falendra-kosh/" target="_blank" className="btn btn-secondary" title="Work GitHub">
-                                <FaGithub /> Work
-                            </a>
-                        </div>
+                        <a href="https://www.linkedin.com/in/falendra-bandhe/" target="_blank" rel="noreferrer" className="btn btn-secondary">
+                            <FaLinkedin size={18} /> LinkedIn
+                        </a>
+                        <a href="https://github.com/falendra/" target="_blank" rel="noreferrer" className="btn btn-secondary" title="Personal Projects">
+                            <FaGithub size={18} /> GitHub
+                        </a>
+                        <a href="https://github.com/falendra-kosh/" target="_blank" rel="noreferrer" className="btn btn-secondary" title="Work at KOSH">
+                            <FaBriefcase size={16} /> Work
+                        </a>
                     </motion.div>
                 </div>
             </div>

@@ -2,25 +2,32 @@ import { motion } from 'framer-motion';
 
 const projects = [
     {
-        title: "react-native-upi-pay",
-        description: "Open source library enabling seamless UPI payment integration for React Native apps. Published on NPM.",
-        tech: ["React Native", "Java", "Android SDK", "NPM"],
+        title: "react-native-upi-pay 🚀",
+        description: "Architected and actively maintain a critical open-source library bridging React Native with India's UPI ecosystem. Solves fragmentation across GooglePay, PhonePe, and Paytm APIs. Used by 50+ diverse apps.",
+        tech: ["React Native", "Java / Kotlin", "Android SDK", "NPM Publishing", "Open Source"],
         link: "https://www.npmjs.com/package/react-native-upi-pay",
-        type: "Open Source"
+        type: "Open Source Architecture"
     },
     {
-        title: "KOSH Super App",
-        description: "Architected a multi-tenant chat SaaS product. Includes job applications, workflow automation, and social features.",
-        tech: ["Python", "Django", "React Native", "MQTT", "AWS"],
-        link: "https://play.google.com/store/apps/details?id=com.kosh.app", // Assuming KOSH link
-        type: "Product"
+        title: "Real-Time Messaging Engine",
+        description: "Designed the core communication backbone for KOSH, handling 200k+ concurrent users. Implemented a distributed MQTT architecture with RabbitMQ for reliable message delivery and presence tracking at scale.",
+        tech: ["Python", "Django", "MQTT", "RabbitMQ", "Redis", "WebSockets"],
+        link: "https://play.google.com/store/apps/details?id=com.kosh",
+        type: "High-Scale Distributed System"
     },
     {
-        title: "Automated Recovery Calls",
-        description: "System for automated voice reminders improving loan recovery by 18%.",
-        tech: ["Python", "Celery", "IVR Integration", "PostgreSQL"],
+        title: "Unified Multi-Tenant SSO",
+        description: "Built a centralized Identity Provider (IdP) to unify authentication across multiple diverse enterprise tenants. Reduced login-related support tickets by 40% and streamlined onboarding for 100+ organizations.",
+        tech: ["OAuth 2.0", "JWT", "Python", "Security Architecture", "React"],
         link: "#",
-        type: "System Design"
+        type: "Security & Identity"
+    },
+    {
+        title: "Automated IVR Recovery Workflow",
+        description: "Engineered an event-driven debt recovery system. Integrates credit decisioning with telephony providers to trigger automated voice calls. Processed high-volume async tasks via Celery, boosting recovery rates by 18%.",
+        tech: ["Python", "Celery", "PostgreSQL", "Telephony APIs", "System Design"],
+        link: "#",
+        type: "Event-Driven Architecture"
     }
 ];
 

@@ -57,6 +57,27 @@ const About = () => {
                             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>IndiaQuotient Award</div>
                         </div>
                     </div>
+
+                    <div style={{ marginTop: '3rem' }}>
+                        <h3 style={{ fontSize: '1.25rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>Contribution Activity</h3>
+                        <div style={{
+                            padding: '1rem',
+                            background: 'rgba(255,255,255,0.02)',
+                            borderRadius: '8px',
+                            border: '1px solid var(--accent-subtle)',
+                            overflow: 'hidden',
+                            display: 'flex',
+                            justifyContent: 'center'
+                        }}>
+                            <a href="https://github.com/falendra-kosh/" target="_blank" rel="noreferrer" style={{ width: '100%' }}>
+                                <img
+                                    src="github.svg"
+                                    alt="GitHub Streak"
+                                    style={{ width: '100%', height: '100%', borderRadius: '4px' }}
+                                />
+                            </a>
+                        </div>
+                    </div>
                 </motion.div>
             </div>
         </section>
