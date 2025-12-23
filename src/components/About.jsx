@@ -39,7 +39,7 @@ const About = () => {
                     </div>
 
                     <h3 style={{ fontSize: '1.25rem', marginTop: '3rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>Key Metrics</h3>
-                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                    <div className="metrics-grid" style={{ display: 'grid', gap: '1rem' }}>
                         <div style={{ background: 'var(--bg-primary)', padding: '1rem', borderRadius: '4px' }}>
                             <div style={{ fontSize: '1.5rem', fontWeight: 700, color: '#fff' }}>6+</div>
                             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Years Experience</div>

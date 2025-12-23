@@ -30,7 +30,7 @@ const Hero = () => {
                             marginBottom: '1.5rem',
                             color: '#fff'
                         }}>
-                            Falendra Kumar Bandhe.
+                            Falendra Kumar Bandhe
                         </h1>
                         <h2 style={{
                             fontSize: 'clamp(1.5rem, 3vw, 2.5rem)',
