@@ -58,28 +58,36 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div style={{ marginTop: '3rem' }}>
-                        <h3 style={{ fontSize: '1.25rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>Contribution Activity</h3>
-                        <div style={{
-                            padding: '1rem',
-                            background: 'rgba(255,255,255,0.02)',
-                            borderRadius: '8px',
-                            border: '1px solid var(--accent-subtle)',
-                            overflow: 'hidden',
-                            display: 'flex',
-                            justifyContent: 'center'
-                        }}>
-                            <a href="https://github.com/falendra-kosh/" target="_blank" rel="noreferrer" style={{ width: '100%' }}>
-                                <img
-                                    src="github.svg"
-                                    alt="GitHub Streak"
-                                    style={{ width: '100%', height: '100%', borderRadius: '4px' }}
-                                />
-                            </a>
-                        </div>
-                    </div>
                 </motion.div>
             </div>
+
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="container"
+                style={{ marginTop: '4rem' }}
+            >
+                <h3 style={{ fontSize: '1.25rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>Contribution Activity</h3>
+                <div style={{
+                    padding: '1.5rem',
+                    background: 'rgba(255,255,255,0.02)',
+                    borderRadius: '8px',
+                    border: '1px solid var(--accent-subtle)',
+                    overflow: 'hidden',
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                    <a href="https://github.com/falendra-kosh/" target="_blank" rel="noreferrer" style={{ width: '100%' }}>
+                        <img
+                            src="github.svg"
+                            alt="GitHub Streak"
+                            style={{ width: '100%', height: 'auto', borderRadius: '4px', minHeight: '150px', objectFit: 'cover' }}
+                        />
+                    </a>
+                </div>
+            </motion.div>
         </section>
     );
 };
