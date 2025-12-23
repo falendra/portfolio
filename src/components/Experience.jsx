@@ -4,7 +4,7 @@ const experiences = [
     {
         company: "KOSH",
         role: "Founding Engineer",
-        period: "Aug 2019 — Present",
+        period: "Aug 2019 — Nov 2025",
         description: "Leading the engineering team as the first hire, owning the complete product lifecycle from 0 to 200k+ users. Responsible for architectural decisions, system scalability, and technical leadership across the stack.",
         details: [
             {
@@ -50,12 +50,6 @@ const Experience = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
                             viewport={{ once: true }}
-                            style={{
-                                borderLeft: '2px solid var(--accent-subtle)',
-                                paddingLeft: '2rem',
-                                marginBottom: '4rem',
-                                position: 'relative'
-                            }}
                         >
                             <div style={{
                                 position: 'absolute',
