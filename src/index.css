@@ -268,10 +268,14 @@ a {
         /* Force smaller titles */
     }
 
-    /* Stack grids that might be forced to 2 columns */
     .about-grid,
     .metrics-grid {
         grid-template-columns: 1fr !important;
+    }
+
+    .hero {
+        padding-top: 8rem !important;
+        /* Extra padding to clear fixed navbar on mobile */
     }
 }
 
