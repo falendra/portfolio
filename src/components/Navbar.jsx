@@ -41,6 +41,7 @@ const Navbar = () => {
                     <li><a href="#about" className="nav-link">About</a></li>
                     <li><a href="#skills" className="nav-link">Tech</a></li>
                     <li><a href="#work" className="nav-link">Experience</a></li>
+                    <li><a href="#testimonials" className="nav-link">Testimonials</a></li>
                     <li><a href="#contact" className="nav-link">Contact</a></li>
                 </ul>
 
@@ -63,6 +64,7 @@ const Navbar = () => {
                                 <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
                                 <li><a href="#skills" onClick={() => setIsOpen(false)}>Tech</a></li>
                                 <li><a href="#work" onClick={() => setIsOpen(false)}>Experience</a></li>
+                                <li><a href="#testimonials" onClick={() => setIsOpen(false)}>Testimonials</a></li>
                                 <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
                             </ul>
                         </motion.div>
