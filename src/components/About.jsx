@@ -16,7 +16,7 @@ const About = () => {
                         My expertise lies in architecting complex backends with <strong>Python/Django</strong> and crafting intuitive cross-platform, user-centric mobile applications with <strong>React Native</strong>.
                     </p>
                     <p style={{ marginBottom: '1.5rem', fontSize: '1.05rem', lineHeight: '1.8' }}>
-                        As a Founding Engineer at KOSH, I wore multiple hats—from system architect to team lead—helping the platform scale to <strong>200,000+ users</strong>.
+                        As a Founding Engineer at KOSH, I wore multiple hats from system architect to team lead, helping the platform scale to <strong>200,000+ users</strong>.
                         I have a proven track record of mentoring teams (15+ engineers) and driving technical decisions that directly impact business growth.
                     </p>
                 </motion.div>
@@ -41,19 +41,19 @@ const About = () => {
                     <h3 style={{ fontSize: '1.25rem', marginTop: '3rem', marginBottom: '1.5rem', color: 'var(--text-primary)' }}>Key Metrics</h3>
                     <div className="metrics-grid" style={{ display: 'grid', gap: '1rem' }}>
                         <div style={{ background: 'var(--bg-primary)', padding: '1rem', borderRadius: '4px' }}>
-                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: '#fff' }}>6+</div>
+                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text-primary)' }}>6+</div>
                             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Years Experience</div>
                         </div>
                         <div style={{ background: 'var(--bg-primary)', padding: '1rem', borderRadius: '4px' }}>
-                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: '#fff' }}>15+</div>
+                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text-primary)' }}>15+</div>
                             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Engineers Led</div>
                         </div>
                         <div style={{ background: 'var(--bg-primary)', padding: '1rem', borderRadius: '4px' }}>
-                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: '#fff' }}>200k+</div>
+                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text-primary)' }}>200k+</div>
                             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Users Scaled</div>
                         </div>
                         <div style={{ background: 'var(--bg-primary)', padding: '1rem', borderRadius: '4px' }}>
-                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: '#fff' }}>30/30</div>
+                            <div style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--text-primary)' }}>30/30</div>
                             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>IndiaQuotient Award</div>
                         </div>
                     </div>

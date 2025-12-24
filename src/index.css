@@ -22,6 +22,20 @@
     --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+[data-theme='light'] {
+    --bg-primary: #fafafa;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+
+    --text-primary: #171717;
+    --text-secondary: #525252;
+    --text-tertiary: #737373;
+
+    --accent-primary: #000000;
+    --accent-subtle: #e5e5e5;
+    --accent-glow: rgba(0, 0, 0, 0.05);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
