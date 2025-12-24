@@ -15,11 +15,11 @@ const Hero = () => {
                             display: 'inline-block',
                             padding: '0.25rem 0.75rem',
                             borderRadius: '100px',
-                            background: 'rgba(255,255,255,0.05)',
-                            color: '#fff',
+                            background: 'var(--bg-card)',
+                            color: 'var(--text-primary)',
                             fontSize: '0.8rem',
                             marginBottom: '1.5rem',
-                            border: '1px solid rgba(255,255,255,0.1)'
+                            border: '1px solid var(--accent-subtle)'
                         }}>
                             30 Under 30 Awardee • IndiaQuotient
                         </span>
@@ -28,7 +28,7 @@ const Hero = () => {
                             fontWeight: 500,
                             lineHeight: 1.1,
                             marginBottom: '1.5rem',
-                            color: '#fff'
+                            color: 'var(--text-primary)'
                         }}>
                             Falendra Kumar Bandhe
                         </h1>
