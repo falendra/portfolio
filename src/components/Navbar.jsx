@@ -57,6 +57,7 @@ const Navbar = () => {
                         <li><a href="#work" className="nav-link">Experience</a></li>
                         <li><a href="#testimonials" className="nav-link">Testimonials</a></li>
                         <li><a href="#contact" className="nav-link">Contact</a></li>
+                        <li><a href="/Falendra%20Bandhe%20resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-link" style={{ color: 'var(--accent-primary)' }}>Resume</a></li>
                     </ul>
 
                     <button
@@ -102,6 +103,7 @@ const Navbar = () => {
                                 <li><a href="#work" onClick={() => setIsOpen(false)}>Experience</a></li>
                                 <li><a href="#testimonials" onClick={() => setIsOpen(false)}>Testimonials</a></li>
                                 <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+                                <li><a href="/Falendra%20Bandhe%20resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)} style={{ color: 'var(--accent-primary)' }}>Resume</a></li>
                                 <li style={{ marginTop: '1rem' }}>
                                     <button
                                         onClick={toggleTheme}

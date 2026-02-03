@@ -57,7 +57,10 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                        <a href="mailto:falendra.bandhe@gmail.com" className="btn btn-primary">
+                        <a href="/Falendra%20Bandhe%20resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary" title="Download Resume">
+                            Download Resume
+                        </a>
+                        <a href="mailto:falendra.bandhe@gmail.com" className="btn btn-secondary">
                             Get in Touch
                         </a>
                         <a href="https://www.linkedin.com/in/falendra-bandhe/" target="_blank" rel="noreferrer" className="btn btn-secondary">
