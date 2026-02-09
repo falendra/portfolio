@@ -82,7 +82,7 @@ const About = () => {
                     <a href="https://github.com/falendra-kosh/" target="_blank" rel="noreferrer" style={{ width: '100%' }}>
                         <img
                             src="/github.svg"
-                            alt="GitHub Streak"
+                            alt="Falendra's GitHub Contribution Activity Graph showing commit history"
                             style={{ width: '100%', height: 'auto', borderRadius: '4px', minHeight: '150px', objectFit: 'cover' }}
                         />
                     </a>
